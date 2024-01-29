@@ -1,10 +1,8 @@
 @import "../scss/custom.scss";
 @import "../scss/theme/navheader.scss";
+@import "../scss/theme/sections.scss";
 body {
 	background-color: $dark;
 
 	font-family: "Noto Sans", sans-serif;
-	font-optical-sizing: auto;
-	font-style: normal;
-	font-variation-settings: "wdth" 100;
 }
