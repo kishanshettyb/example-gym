@@ -1,0 +1,59 @@
+.navbar {
+	background-color: $dark-1 !important;
+	padding: 20px 40px;
+	border-radius: 0px 0px 10px 10px;
+
+	.btn-primary {
+		img {
+			margin-top: -3px;
+		}
+	}
+
+	.navbar-brand {
+		font-size: 2rem;
+		font-weight: bold;
+		color: $white;
+		display: flex;
+		align-items: center;
+		img {
+			width: 60px;
+			height: auto;
+			margin-right: 10px;
+		}
+		span {
+			color: $primary;
+		}
+	}
+	.nav-link {
+		color: $white;
+		padding: 0 20px !important;
+		opacity: 0.8;
+		&:hover {
+			color: $primary;
+			opacity: 1;
+		}
+		&.active {
+			color: $primary;
+			opacity: 1;
+			font-weight: bold;
+		}
+	}
+}
+.topnavbar {
+	background-color: $dark-1;
+	border-bottom: 2px solid rgb(68, 67, 67);
+	padding: 20px 0;
+	margin-top: 20px;
+	border-radius: 10px 10px 0 0;
+	img {
+		width: 24px;
+		height: 24px;
+	}
+	a {
+		font-size: 0.9rem;
+		text-decoration: none;
+		color: $white;
+		opacity: 0.75;
+		font-weight: 600;
+	}
+}
