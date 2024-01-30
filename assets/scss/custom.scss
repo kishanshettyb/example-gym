@@ -14,6 +14,8 @@
 $dark: #1d1d1d;
 $dark-1: #242428;
 $dark-2: #1d1e21;
+$dark-3: #2a2a2a;
+$dark-4: #191918;
 $primary: #ff5e17;
 $white: #fff;
 $theme-colors: (
@@ -27,6 +29,8 @@ $theme-colors: (
 	"dark": $dark,
 	"dark-1": $dark-1,
 	"dark-2": $dark-2,
+	"dark-3": $dark-3,
+	"dark-4": $dark-4,
 	"white": $white
 );
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
